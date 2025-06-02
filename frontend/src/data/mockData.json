@@ -1,0 +1,145 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "superadmin",
+      "password": "superadmin123",
+      "name": "Super Admin",
+      "role": "superadmin",
+      "email": "superadmin@mall.com"
+    },
+    {
+      "id": 2,
+      "username": "admin1",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "admin",
+      "email": "admin@mall.com"
+    },
+    {
+      "id": 3,
+      "username": "manager1",
+      "password": "manager123",
+      "name": "Store Manager",
+      "role": "manager",
+      "email": "manager@mall.com"
+    },
+    {
+      "id": 4,
+      "username": "staff1",
+      "password": "staff123",
+      "name": "Staff Member",
+      "role": "staff",
+      "email": "staff@mall.com"
+    },
+    {
+      "id": 5,
+      "username": "tenant1",
+      "password": "tenant123",
+      "name": "Tenant User",
+      "role": "tenant",
+      "email": "tenant@mall.com"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "superadmin",
+      "description": "Super Administrator with full access"
+    },
+    {
+      "id": 2,
+      "name": "admin",
+      "description": "Administrator with user management capabilities"
+    },
+    {
+      "id": 3,
+      "name": "manager",
+      "description": "Store Manager with operational access"
+    },
+    {
+      "id": 4,
+      "name": "staff",
+      "description": "Staff Member with limited access"
+    },
+    {
+      "id": 5,
+      "name": "tenant",
+      "description": "Tenant with store-specific access"
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "roleId": 1,
+      "title": "Super Admin Privileges",
+      "description": "Complete access to all system functions and data",
+      "content": "As a Super Admin, you have unrestricted access to all features of the mall management system. You can create, modify, and delete users, assign roles, and manage all aspects of the mall operations. You are responsible for system security and integrity.",
+      "videoUrl": "https://example.com/videos/superadmin-training.mp4"
+    },
+    {
+      "id": 2,
+      "roleId": 2,
+      "title": "Admin User Management",
+      "description": "Create and manage user accounts and permissions",
+      "content": "As an Admin, you can create new user accounts, reset passwords, and assign roles to users. You cannot modify Super Admin accounts or change system-wide settings. You must follow security protocols when creating accounts.",
+      "videoUrl": "https://example.com/videos/admin-user-management.mp4"
+    },
+    {
+      "id": 3,
+      "roleId": 2,
+      "title": "Admin Reporting",
+      "description": "Generate and view system reports",
+      "content": "Admins have access to generate reports on mall operations, user activities, and tenant performance. Reports must be handled confidentially and should not be shared outside the management team.",
+      "videoUrl": null
+    },
+    {
+      "id": 4,
+      "roleId": 3,
+      "title": "Manager Operations",
+      "description": "Day-to-day operational management",
+      "content": "Store Managers are responsible for daily operations including staff scheduling, inventory management, and customer service oversight. Managers must ensure all store policies are followed and report any issues to administration.",
+      "videoUrl": "https://example.com/videos/manager-operations.mp4"
+    },
+    {
+      "id": 5,
+      "roleId": 3,
+      "title": "Manager Reporting",
+      "description": "Submit regular operational reports",
+      "content": "Managers must submit weekly operational reports including sales figures, staff performance, and inventory status. Reports must be submitted by Monday 10 AM for the previous week.",
+      "videoUrl": null
+    },
+    {
+      "id": 6,
+      "roleId": 4,
+      "title": "Staff Conduct",
+      "description": "Guidelines for staff behavior and responsibilities",
+      "content": "All staff members must adhere to the mall's code of conduct, including professional appearance, punctuality, and customer service standards. Staff must report to their assigned stations on time and follow the instructions of their managers.",
+      "videoUrl": "https://example.com/videos/staff-conduct.mp4"
+    },
+    {
+      "id": 7,
+      "roleId": 4,
+      "title": "Staff Safety Procedures",
+      "description": "Emergency and safety protocols",
+      "content": "Staff must be familiar with all emergency procedures including fire evacuation, medical emergencies, and security threats. Regular safety drills will be conducted, and all staff must participate.",
+      "videoUrl": "https://example.com/videos/safety-procedures.mp4"
+    },
+    {
+      "id": 8,
+      "roleId": 5,
+      "title": "Tenant Lease Terms",
+      "description": "Lease agreement rules and obligations",
+      "content": "Tenants must comply with all terms of their lease agreements, including timely rent payments, maintenance of their premises, and adherence to mall operating hours. Any modifications to store layouts must be approved by management.",
+      "videoUrl": null
+    },
+    {
+      "id": 9,
+      "roleId": 5,
+      "title": "Tenant Marketing Guidelines",
+      "description": "Rules for promotional activities and advertising",
+      "content": "Tenants must follow mall guidelines for all marketing and promotional activities. Sale signage must be approved by management, and promotions must not conflict with mall-wide events. Tenants are encouraged to participate in mall-wide promotional events.",
+      "videoUrl": "https://example.com/videos/marketing-guidelines.mp4"
+    }
+  ]
+}
